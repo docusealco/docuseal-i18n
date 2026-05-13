@@ -1,0 +1,25 @@
+name: Sync translations
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch translations
+        run: |
+          curl -sSL https://raw.githubusercontent.com/docusealco/docuseal/master/config/locales/i18n.yml -o i18n.yml
+          curl -sSL https://raw.githubusercontent.com/docusealco/docuseal/master/app/javascript/template_builder/i18n.js -o builder_i18n.js
+          curl -sSL https://raw.githubusercontent.com/docusealco/docuseal/master/app/javascript/submission_form/i18n.js -o form_i18n.js
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --staged --quiet || (git commit -m "update translations" && git push)
