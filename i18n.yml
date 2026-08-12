@@ -57,8 +57,11 @@ en: &en
   paypal_account_has_been_connected: PayPal account has been connected.
   re_connect_paypal: Re-connect PayPal
   disconnect: Disconnect
-  failed_to_connect_paypal: Failed to connect PayPal. Please try again.
-  paypal_connect_not_completed: PayPal connection was not completed.
+  failed_to_connect_paypal_please_try_again: Failed to connect PayPal. Please try again.
+  paypal_connection_was_not_completed: PayPal connection was not completed.
+  disconnecting_your_paypal_account_will_prevent_you_from_offering_paypal_services_and_products_on_your_website_do_you_wish_to_continue: Disconnecting your PayPal account will prevent you from offering PayPal services and products on your website. Do you wish to continue?
+  attention_you_currently_cannot_receive_payments_due_to_restriction_on_your_paypal_account_please_reach_out_to_paypal_customer_support_or_connect_to_paypal_com_for_more_information: 'Attention: You currently cannot receive payments due to restriction on your PayPal account. Please reach out to PayPal Customer Support or connect to https://www.paypal.com for more information.'
+  attention_please_confirm_your_email_address_on_paypal_com_in_order_to_receive_payments_you_currently_cannot_receive_payments: 'Attention: Please confirm your email address on https://www.paypal.com/businessprofile/settings in order to receive payments! You currently cannot receive payments.'
   payment_receipt: Payment Receipt
   amount_paid: Amount paid
   transaction: Transaction
@@ -1113,9 +1116,16 @@ en: &en
     submission_submitters: Submitters list
     submission_link: Submission link
     documents_link: Documents link
+  date:
+    formats:
+      default: "%m/%d/%Y"
+      short: "%b %-d"
+      long: "%B %-d, %Y"
   time:
     formats:
-      detailed: "%B %d, %Y %H:%M:%S"
+      short: "%b %-d, %-I:%M %p"
+      long: "%B %-d, %Y at %-I:%M %p"
+      detailed: "%B %-d, %Y at %-I:%M:%S %p"
 
 es: &es
   knowledge_based_authentication: Autenticación basada en el conocimiento
@@ -1147,8 +1157,11 @@ es: &es
   paypal_integration: Integración con PayPal
   paypal_account_has_been_connected: La cuenta de PayPal ha sido conectada.
   re_connect_paypal: Volver a conectar PayPal
-  failed_to_connect_paypal: No se pudo conectar PayPal. Por favor, inténtalo de nuevo.
-  paypal_connect_not_completed: La conexión con PayPal no se completó.
+  failed_to_connect_paypal_please_try_again: No se pudo conectar PayPal. Por favor, inténtalo de nuevo.
+  paypal_connection_was_not_completed: La conexión con PayPal no se completó.
+  disconnecting_your_paypal_account_will_prevent_you_from_offering_paypal_services_and_products_on_your_website_do_you_wish_to_continue: Desconectar tu cuenta de PayPal impedirá que ofrezcas servicios y productos de PayPal en tu sitio web. ¿Deseas continuar?
+  attention_you_currently_cannot_receive_payments_due_to_restriction_on_your_paypal_account_please_reach_out_to_paypal_customer_support_or_connect_to_paypal_com_for_more_information: 'Atención: Actualmente no puedes recibir pagos debido a una restricción en tu cuenta de PayPal. Por favor, contacta con el Soporte al Cliente de PayPal o visita https://www.paypal.com para más información.'
+  attention_please_confirm_your_email_address_on_paypal_com_in_order_to_receive_payments_you_currently_cannot_receive_payments: 'Atención: Por favor, confirma tu dirección de correo electrónico en https://www.paypal.com/businessprofile/settings para poder recibir pagos. Actualmente no puedes recibir pagos.'
   payment_receipt: Recibo de pago
   amount_paid: Importe pagado
   transaction: Transacción
@@ -2210,9 +2223,30 @@ es: &es
     submission_submitters: Lista de firmantes
     submission_link: Enlace del envío
     documents_link: Enlace de los documentos
+  date:
+    abbr_month_names:
+      -
+      - ene
+      - feb
+      - mar
+      - abr
+      - may
+      - jun
+      - jul
+      - ago
+      - sept
+      - oct
+      - nov
+      - dic
+    formats:
+      default: "%d/%m/%Y"
+      short: "%-d %b"
+      long: "%-d de %B de %Y"
   time:
     formats:
-      detailed: "%-d de %B de %Y %H:%M:%S"
+      short: "%-d %b, %-H:%M"
+      long: "%-d de %B de %Y a las %-H:%M"
+      detailed: "%-d de %B de %Y a las %-H:%M:%S"
 
 it: &it
   knowledge_based_authentication: Autenticazione basata sulla conoscenza
@@ -2244,8 +2278,11 @@ it: &it
   paypal_integration: Integrazione PayPal
   paypal_account_has_been_connected: L'account PayPal è stato collegato.
   re_connect_paypal: Ricollega PayPal
-  failed_to_connect_paypal: Impossibile collegare PayPal. Riprova.
-  paypal_connect_not_completed: La connessione con PayPal non è stata completata.
+  failed_to_connect_paypal_please_try_again: Impossibile collegare PayPal. Riprova.
+  paypal_connection_was_not_completed: La connessione con PayPal non è stata completata.
+  disconnecting_your_paypal_account_will_prevent_you_from_offering_paypal_services_and_products_on_your_website_do_you_wish_to_continue: La disconnessione del tuo account PayPal ti impedirà di offrire servizi e prodotti PayPal sul tuo sito web. Vuoi continuare?
+  attention_you_currently_cannot_receive_payments_due_to_restriction_on_your_paypal_account_please_reach_out_to_paypal_customer_support_or_connect_to_paypal_com_for_more_information: 'Attenzione: Al momento non puoi ricevere pagamenti a causa di una restrizione sul tuo account PayPal. Contatta l''Assistenza Clienti PayPal o visita https://www.paypal.com per maggiori informazioni.'
+  attention_please_confirm_your_email_address_on_paypal_com_in_order_to_receive_payments_you_currently_cannot_receive_payments: 'Attenzione: Conferma il tuo indirizzo email su https://www.paypal.com/businessprofile/settings per poter ricevere pagamenti! Al momento non puoi ricevere pagamenti.'
   payment_receipt: Ricevuta di pagamento
   amount_paid: Importo pagato
   transaction: Transazione
@@ -3307,9 +3344,16 @@ it: &it
     submission_submitters: Lista dei firmatari
     submission_link: Link dell'invio
     documents_link: Link dei documenti
+  date:
+    formats:
+      default: "%d/%m/%Y"
+      short: "%-d %b"
+      long: "%-d %B %Y"
   time:
     formats:
-      detailed: "%d %B %Y %H:%M:%S"
+      short: "%-d %b, %H:%M"
+      long: "%-d %B %Y alle ore %H:%M"
+      detailed: "%-d %B %Y alle ore %H:%M:%S"
 
 fr: &fr
   knowledge_based_authentication: Authentification basée sur la connaissance
@@ -3341,8 +3385,11 @@ fr: &fr
   paypal_integration: Intégration PayPal
   paypal_account_has_been_connected: Le compte PayPal a été connecté.
   re_connect_paypal: Reconnecter PayPal
-  failed_to_connect_paypal: Échec de la connexion à PayPal. Veuillez réessayer.
-  paypal_connect_not_completed: La connexion à PayPal n'a pas été complétée.
+  failed_to_connect_paypal_please_try_again: Échec de la connexion à PayPal. Veuillez réessayer.
+  paypal_connection_was_not_completed: La connexion à PayPal n'a pas été complétée.
+  disconnecting_your_paypal_account_will_prevent_you_from_offering_paypal_services_and_products_on_your_website_do_you_wish_to_continue: Déconnecter votre compte PayPal vous empêchera de proposer des services et produits PayPal sur votre site web. Voulez-vous continuer ?
+  attention_you_currently_cannot_receive_payments_due_to_restriction_on_your_paypal_account_please_reach_out_to_paypal_customer_support_or_connect_to_paypal_com_for_more_information: 'Attention : Vous ne pouvez actuellement pas recevoir de paiements en raison d''une restriction sur votre compte PayPal. Veuillez contacter le service client PayPal ou visiter https://www.paypal.com pour plus d''informations.'
+  attention_please_confirm_your_email_address_on_paypal_com_in_order_to_receive_payments_you_currently_cannot_receive_payments: 'Attention : Veuillez confirmer votre adresse e-mail sur https://www.paypal.com/businessprofile/settings afin de pouvoir recevoir des paiements ! Vous ne pouvez actuellement pas recevoir de paiements.'
   payment_receipt: Reçu de paiement
   amount_paid: Montant payé
   transaction: Transaction
@@ -4401,9 +4448,29 @@ fr: &fr
     submission_submitters: Liste des signataires
     submission_link: Lien de la soumission
     documents_link: Lien des documents
+  date:
+    abbr_month_names:
+      -
+      - janv.
+      - févr.
+      - mars
+      - avr.
+      - mai
+      - juin
+      - juil.
+      - août
+      - sept.
+      - oct.
+      - nov.
+      - déc.
+    formats:
+      short: "%-d %b"
+      long: "%-d %B %Y"
   time:
     formats:
-      detailed: "%A %d %B %Y %Hh%Mm%Ss"
+      short: "%-d %b, %H:%M"
+      long: "%-d %B %Y à %H:%M"
+      detailed: "%-d %B %Y à %H:%M:%S"
 
 pt: &pt
   knowledge_based_authentication: Autenticação baseada em conhecimento
@@ -4435,8 +4502,11 @@ pt: &pt
   paypal_integration: Integração com PayPal
   paypal_account_has_been_connected: Conta PayPal foi conectada.
   re_connect_paypal: Reconectar PayPal
-  failed_to_connect_paypal: Falha ao conectar PayPal. Tente novamente.
-  paypal_connect_not_completed: A conexão com PayPal não foi concluída.
+  failed_to_connect_paypal_please_try_again: Falha ao conectar PayPal. Tente novamente.
+  paypal_connection_was_not_completed: A conexão com PayPal não foi concluída.
+  disconnecting_your_paypal_account_will_prevent_you_from_offering_paypal_services_and_products_on_your_website_do_you_wish_to_continue: Desconectar sua conta PayPal impedirá que você ofereça serviços e produtos PayPal no seu site. Deseja continuar?
+  attention_you_currently_cannot_receive_payments_due_to_restriction_on_your_paypal_account_please_reach_out_to_paypal_customer_support_or_connect_to_paypal_com_for_more_information: 'Atenção: No momento você não pode receber pagamentos devido a uma restrição na sua conta PayPal. Entre em contato com o Suporte ao Cliente PayPal ou acesse https://www.paypal.com para mais informações.'
+  attention_please_confirm_your_email_address_on_paypal_com_in_order_to_receive_payments_you_currently_cannot_receive_payments: 'Atenção: Por favor, confirme seu endereço de e-mail em https://www.paypal.com/businessprofile/settings para poder receber pagamentos! No momento você não pode receber pagamentos.'
   payment_receipt: Recibo de pagamento
   amount_paid: Valor pago
   transaction: Transação
@@ -5498,9 +5568,29 @@ pt: &pt
     submission_submitters: Lista de signatários
     submission_link: Link da submissão
     documents_link: Link dos documentos
+  date:
+    abbr_month_names:
+      -
+      - jan.
+      - fev.
+      - mar.
+      - abr.
+      - mai.
+      - jun.
+      - jul.
+      - ago.
+      - set.
+      - out.
+      - nov.
+      - dez.
+    formats:
+      short: "%-d de %b"
+      long: "%-d de %B de %Y"
   time:
     formats:
-      detailed: "%A, %d de %B de %Y, %H:%M:%Sh"
+      short: "%-d de %b, %H:%M"
+      long: "%-d de %B de %Y às %H:%M"
+      detailed: "%-d de %B de %Y às %H:%M:%S"
 
 de: &de
   knowledge_based_authentication: Wissensbasierte Authentifizierung
@@ -5542,8 +5632,11 @@ de: &de
   paypal_integration: PayPal-Integration
   paypal_account_has_been_connected: PayPal-Konto wurde verbunden.
   re_connect_paypal: PayPal erneut verbinden
-  failed_to_connect_paypal: PayPal konnte nicht verbunden werden. Bitte erneut versuchen.
-  paypal_connect_not_completed: Die PayPal-Verbindung wurde nicht abgeschlossen.
+  failed_to_connect_paypal_please_try_again: PayPal konnte nicht verbunden werden. Bitte erneut versuchen.
+  paypal_connection_was_not_completed: Die PayPal-Verbindung wurde nicht abgeschlossen.
+  disconnecting_your_paypal_account_will_prevent_you_from_offering_paypal_services_and_products_on_your_website_do_you_wish_to_continue: Das Trennen Ihres PayPal-Kontos verhindert, dass Sie PayPal-Dienste und -Produkte auf Ihrer Website anbieten können. Möchten Sie fortfahren?
+  attention_you_currently_cannot_receive_payments_due_to_restriction_on_your_paypal_account_please_reach_out_to_paypal_customer_support_or_connect_to_paypal_com_for_more_information: 'Achtung: Sie können derzeit aufgrund einer Einschränkung Ihres PayPal-Kontos keine Zahlungen empfangen. Bitte wenden Sie sich an den PayPal-Kundenservice oder besuchen Sie https://www.paypal.com für weitere Informationen.'
+  attention_please_confirm_your_email_address_on_paypal_com_in_order_to_receive_payments_you_currently_cannot_receive_payments: 'Achtung: Bitte bestätigen Sie Ihre E-Mail-Adresse auf https://www.paypal.com/businessprofile/settings, um Zahlungen empfangen zu können! Sie können derzeit keine Zahlungen empfangen.'
   payment_receipt: Zahlungsbeleg
   amount_paid: Gezahlter Betrag
   transaction: Transaktion
@@ -6595,11 +6688,42 @@ de: &de
     submission_submitters: Liste der Unterzeichner
     submission_link: Link der Einreichung
     documents_link: Link der Dokumente
+  date:
+    abbr_month_names:
+      -
+      - Jan.
+      - Feb.
+      - März
+      - Apr.
+      - Mai
+      - Juni
+      - Juli
+      - Aug.
+      - Sept.
+      - Okt.
+      - Nov.
+      - Dez.
+    formats:
+      default: "%d.%m.%Y"
+      short: "%-d. %b"
+      long: "%-d. %B %Y"
   time:
     formats:
-      detailed: "%A, %d. %B %Y, %H:%M:%S Uhr"
+      short: "%-d. %b, %H:%M"
+      long: "%-d. %B %Y um %H:%M"
+      detailed: "%-d. %B %Y um %H:%M:%S"
 
 pl:
+  date:
+    formats:
+      default: "%d.%m.%Y"
+      short: "%-d %b"
+      long: "%-d %B %Y"
+  time:
+    formats:
+      short: "%-d %b, %H:%M"
+      long: "%-d %B %Y %H:%M"
+      detailed: "%-d %B %Y %H:%M:%S"
   require_phone_2fa_to_open: Wymagaj uwierzytelniania telefonicznego 2FA do otwarcia
   the_sender_has_requested_a_two_factor_authentication_via_one_time_password_sent_to_your_html: Nadawca zażądał uwierzytelnienia dwuskładnikowego poprzez jednorazowe hasło wysłane na Twój numer telefonu <b>%{phone}</b>.
   send_verification_code: Wyślij kod weryfikacyjny
@@ -6701,6 +6825,44 @@ pl:
   too_many_requests_try_again_later: Zbyt wiele żądań. Spróbuj ponownie później.
 
 uk:
+  date:
+    month_names:
+      -
+      - січня
+      - лютого
+      - березня
+      - квітня
+      - травня
+      - червня
+      - липня
+      - серпня
+      - вересня
+      - жовтня
+      - листопада
+      - грудня
+    abbr_month_names:
+      -
+      - січ.
+      - лют.
+      - бер.
+      - квіт.
+      - трав.
+      - черв.
+      - лип.
+      - серп.
+      - вер.
+      - жовт.
+      - лист.
+      - груд.
+    formats:
+      default: "%d.%m.%Y"
+      short: "%-d %b"
+      long: "%-d %B %Y р."
+  time:
+    formats:
+      short: "%-d %b, %H:%M"
+      long: "%-d %B %Y р. о %H:%M"
+      detailed: "%-d %B %Y р. о %H:%M:%S"
   require_phone_2fa_to_open: Вимагати двофакторну автентифікацію через телефон для відкриття
   the_sender_has_requested_a_two_factor_authentication_via_one_time_password_sent_to_your_html: Відправник запитав двофакторну автентифікацію за допомогою одноразового пароля, надісланого на ваш номер телефону <b>%{phone}</b>.
   send_verification_code: Надіслати код перевірки
@@ -6802,6 +6964,44 @@ uk:
   too_many_requests_try_again_later: Забагато запитів. Спробуйте пізніше.
 
 cs:
+  date:
+    month_names:
+      -
+      - ledna
+      - února
+      - března
+      - dubna
+      - května
+      - června
+      - července
+      - srpna
+      - září
+      - října
+      - listopadu
+      - prosince
+    abbr_month_names:
+      -
+      - led
+      - úno
+      - bře
+      - dub
+      - kvě
+      - čvn
+      - čvc
+      - srp
+      - zář
+      - říj
+      - lis
+      - pro
+    formats:
+      default: "%d. %m. %Y"
+      short: "%-d. %-m."
+      long: "%-d. %B %Y"
+  time:
+    formats:
+      short: "%-d. %-m. %-H:%M"
+      long: "%-d. %B %Y v %-H:%M"
+      detailed: "%-d. %B %Y v %-H:%M:%S"
   require_phone_2fa_to_open: Vyžadovat otevření pomocí telefonního 2FA
   the_sender_has_requested_a_two_factor_authentication_via_one_time_password_sent_to_your_html: Odesílatel požádal o dvoufaktorové ověření pomocí jednorázového hesla zaslaného na vaše telefonní číslo <b>%{phone}</b>.
   send_verification_code: Odeslat ověřovací kód
@@ -6903,6 +7103,30 @@ cs:
   too_many_requests_try_again_later: Příliš mnoho požadavků. Zkuste to později.
 
 he:
+  date:
+    abbr_month_names:
+      -
+      - ינו׳
+      - פבר׳
+      - מרץ
+      - אפר׳
+      - מאי
+      - יוני
+      - יולי
+      - אוג׳
+      - ספט׳
+      - אוק׳
+      - נוב׳
+      - דצמ׳
+    formats:
+      default: "%d.%m.%Y"
+      short: "%-d ב%b"
+      long: "%-d ב%B %Y"
+  time:
+    formats:
+      short: "%-d ב%b, %-H:%M"
+      long: "%-d ב%B %Y בשעה %-H:%M"
+      detailed: "%-d ב%B %Y בשעה %-H:%M:%S"
   require_phone_2fa_to_open: דרוש אימות דו-שלבי באמצעות טלפון לפתיחה
   the_sender_has_requested_a_two_factor_authentication_via_one_time_password_sent_to_your_html: השולח ביקש אימות דו-שלבי באמצעות סיסמה חד פעמית שנשלחה למספר הטלפון שלך <b>%{phone}</b>.
   send_verification_code: שלח קוד אימות
@@ -7043,8 +7267,11 @@ nl: &nl
   paypal_integration: PayPal-integratie
   paypal_account_has_been_connected: PayPal-account is verbonden.
   re_connect_paypal: PayPal opnieuw verbinden
-  failed_to_connect_paypal: PayPal kon niet worden verbonden. Probeer het opnieuw.
-  paypal_connect_not_completed: De verbinding met PayPal is niet voltooid.
+  failed_to_connect_paypal_please_try_again: PayPal kon niet worden verbonden. Probeer het opnieuw.
+  paypal_connection_was_not_completed: De verbinding met PayPal is niet voltooid.
+  disconnecting_your_paypal_account_will_prevent_you_from_offering_paypal_services_and_products_on_your_website_do_you_wish_to_continue: Het loskoppelen van uw PayPal-account voorkomt dat u PayPal-diensten en -producten op uw website kunt aanbieden. Wilt u doorgaan?
+  attention_you_currently_cannot_receive_payments_due_to_restriction_on_your_paypal_account_please_reach_out_to_paypal_customer_support_or_connect_to_paypal_com_for_more_information: 'Let op: U kunt momenteel geen betalingen ontvangen vanwege een beperking op uw PayPal-account. Neem contact op met de PayPal-klantenservice of ga naar https://www.paypal.com voor meer informatie.'
+  attention_please_confirm_your_email_address_on_paypal_com_in_order_to_receive_payments_you_currently_cannot_receive_payments: 'Let op: Bevestig uw e-mailadres op https://www.paypal.com/businessprofile/settings om betalingen te kunnen ontvangen! U kunt momenteel geen betalingen ontvangen.'
   payment_receipt: Betalingsbewijs
   amount_paid: Betaald bedrag
   transaction: Transactie
@@ -8093,11 +8320,29 @@ nl: &nl
     submission_submitters: Lijst van ondertekenaars
     submission_link: Link van de inzending
     documents_link: Link van de documenten
+  date:
+    formats:
+      short: "%-d %b"
+      long: "%-d %B %Y"
   time:
     formats:
-      detailed: "%d %B %Y %H:%M:%S"
+      short: "%-d %b, %H:%M"
+      long: "%-d %B %Y om %H:%M"
+      detailed: "%-d %B %Y om %H:%M:%S"
 
 ar:
+  date:
+    formats:
+      default: "%d‏/%m‏/%Y"
+      short: "%-d %b"
+      long: "%-d %B %Y"
+  time:
+    am: "ص"
+    pm: "م"
+    formats:
+      short: "%-d %b، %-I:%M %p"
+      long: "%-d %B %Y في %-I:%M %p"
+      detailed: "%-d %B %Y في %-I:%M:%S %p"
   require_phone_2fa_to_open: "يتطلب المصادقة الثنائية عبر الهاتف للفتح"
   the_sender_has_requested_a_two_factor_authentication_via_one_time_password_sent_to_your_html: "طلب المرسل المصادقة الثنائية عبر كلمة مرور لمرة واحدة مرسلة إلى رقم هاتفك <b>%{phone}</b>."
   send_verification_code: "إرسال رمز التحقق"
@@ -8199,6 +8444,16 @@ ar:
   too_many_requests_try_again_later: طلبات كثيرة جدًا. حاول مرة أخرى لاحقًا.
 
 ko:
+  date:
+    formats:
+      default: "%Y. %m. %d."
+      short: "%b %-d일"
+      long: "%Y년 %B %-d일"
+  time:
+    formats:
+      short: "%b %-d일 %p %-I:%M"
+      long: "%Y년 %B %-d일 %p %-I:%M"
+      detailed: "%Y년 %B %-d일 %p %-I:%M:%S"
   require_phone_2fa_to_open: 열려면 휴대폰 2FA 요구
   the_sender_has_requested_a_two_factor_authentication_via_one_time_password_sent_to_your_html: 발신자가 <b>%{phone}</b> 전화번호로 전송된 일회용 비밀번호를 통해 2단계 인증을 요청했습니다.
   send_verification_code: 인증 코드 보내기
@@ -8300,6 +8555,16 @@ ko:
   too_many_requests_try_again_later: 요청이 너무 많습니다. 나중에 다시 시도하세요.
 
 ja:
+  date:
+    formats:
+      default: "%Y/%m/%d"
+      short: "%-m月%-d日"
+      long: "%Y年%-m月%-d日"
+  time:
+    formats:
+      short: "%-m月%-d日 %-H:%M"
+      long: "%Y年%-m月%-d日 %-H:%M"
+      detailed: "%Y年%-m月%-d日 %-H:%M:%S"
   require_phone_2fa_to_open: 電話による2段階認証が必要です
   the_sender_has_requested_a_two_factor_authentication_via_one_time_password_sent_to_your_html: 送信者は、<b>%{phone}</b> に送信されたワンタイムパスワードによる2段階認証を要求しました。
   send_verification_code: 認証コードを送信
@@ -8402,21 +8667,33 @@ ja:
 
 en-US:
   <<: *en
-  date:
-    formats:
-      default: "%m/%d/%Y"
-  time:
-    formats:
-      detailed: "%B %d, %Y %I:%M:%S %p"
 
 en-GB:
   <<: *en
   date:
+    abbr_month_names:
+      -
+      - Jan
+      - Feb
+      - Mar
+      - Apr
+      - May
+      - Jun
+      - Jul
+      - Aug
+      - Sept
+      - Oct
+      - Nov
+      - Dec
     formats:
       default: "%d/%m/%Y"
+      short: "%-d %b"
+      long: "%-d %B %Y"
   time:
     formats:
-      detailed: "%d %B, %Y %H:%M:%S"
+      short: "%-d %b, %H:%M"
+      long: "%-d %B %Y at %H:%M"
+      detailed: "%-d %B %Y at %H:%M:%S"
 
 es-ES:
   <<: *es
