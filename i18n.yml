@@ -228,6 +228,7 @@ en: &en
   profile_details: Profile Details
   sign_up_with_google: Sign up with Google
   sign_up_with_microsoft: Sign up with Microsoft
+  redirecting_to_provider: Redirecting to %{provider}...
   by_creating_an_account_you_agree_to_our_html: 'By creating an account, you agree to our <a target="_blank" href="https://www.docuseal.com/privacy">Privacy Policy</a> and <a target="_blank" href="https://www.docuseal.com/terms">Terms of Service</a>.'
   enter_email_to_continue: Enter email to continue
   account: Account
@@ -596,6 +597,9 @@ en: &en
   there_are_no_signatures: There are no signatures
   signed_with_trusted_certificate: Signed with trusted certificate
   signed_with_external_certificate: Signed with external certificate
+  signature_valid: Signature valid
+  signature_verification_failed: Signature verification failed
+  contains_unsigned_changes_after_the_last_signature: Contains unsigned changes after the last signature
   setup_2fa_to_continue: Setup 2FA to continue.
   create_a_new_account: Create a new account.
   you_are_already_signed_in: You are already signed in.
@@ -1338,6 +1342,7 @@ es: &es
   profile_details: Detalles del perfil
   sign_up_with_google: Registrarse con Google
   sign_up_with_microsoft: Registrarse con Microsoft
+  redirecting_to_provider: Redirigiendo a %{provider}...
   by_creating_an_account_you_agree_to_our_html: 'Al crear una cuenta, aceptas nuestra <a target="_blank" href="https://www.docuseal.com/privacy">Política de Privacidad</a> y <a target="_blank" href="https://www.docuseal.com/terms">Términos de Servicio</a>.'
   enter_email_to_continue: Ingresa tu correo electrónico para continuar
   account: Cuenta
@@ -1706,6 +1711,9 @@ es: &es
   there_are_no_signatures: No hay firmas
   signed_with_trusted_certificate: Firmado con certificado de confianza
   signed_with_external_certificate: Firmado con certificado externo
+  signature_valid: Firma válida
+  signature_verification_failed: Verificación de firma fallida
+  contains_unsigned_changes_after_the_last_signature: Contiene cambios no firmados después de la última firma
   setup_2fa_to_continue: Configura 2FA para continuar.
   create_a_new_account: Crear una nueva cuenta.
   you_are_already_signed_in: Ya has iniciado sesión.
@@ -2459,6 +2467,7 @@ it: &it
   profile_details: Dettagli del profilo
   sign_up_with_google: Registrati con Google
   sign_up_with_microsoft: Registrati con Microsoft
+  redirecting_to_provider: Reindirizzamento a %{provider}...
   by_creating_an_account_you_agree_to_our_html: 'Creando un account, accetti la nostra <a target="_blank" href="https://www.docuseal.com/privacy">Privacy Policy</a> e i nostri <a target="_blank" href="https://www.docuseal.com/terms">Termini di servizio</a>.'
   enter_email_to_continue: "Inserisci l'email per continuare"
   account: Account
@@ -2827,6 +2836,9 @@ it: &it
   there_are_no_signatures: Non ci sono firme
   signed_with_trusted_certificate: Firmato con certificato affidabile
   signed_with_external_certificate: Firmato con certificato esterno
+  signature_valid: Firma valida
+  signature_verification_failed: Verifica della firma non riuscita
+  contains_unsigned_changes_after_the_last_signature: Contiene modifiche non firmate dopo l’ultima firma
   setup_2fa_to_continue: Configura 2FA per continuare.
   create_a_new_account: Crea un nuovo account.
   you_are_already_signed_in: "Hai già effettuato l'accesso."
@@ -3566,6 +3578,7 @@ fr: &fr
   profile_details: Détails du profil
   sign_up_with_google: S’inscrire avec Google
   sign_up_with_microsoft: S’inscrire avec Microsoft
+  redirecting_to_provider: Redirection vers %{provider}...
   by_creating_an_account_you_agree_to_our_html: En créant un compte, vous acceptez notre <a target="_blank" href="https://www.docuseal.com/privacy">Politique de confidentialité</a> et nos <a target="_blank" href="https://www.docuseal.com/terms">Conditions d’utilisation</a>.
   enter_email_to_continue: Entrez votre e‑mail pour continuer
   account: Compte
@@ -3934,6 +3947,9 @@ fr: &fr
   there_are_no_signatures: Il n’y a pas de signatures
   signed_with_trusted_certificate: Signé avec un certificat de confiance
   signed_with_external_certificate: Signé avec un certificat externe
+  signature_valid: Signature valide
+  signature_verification_failed: Échec de la vérification de la signature
+  contains_unsigned_changes_after_the_last_signature: Contient des modifications non signées après la dernière signature
   setup_2fa_to_continue: Configurez la 2FA pour continuer.
   create_a_new_account: Créer un nouveau compte.
   you_are_already_signed_in: Vous êtes déjà connecté.
@@ -4683,6 +4699,7 @@ pt: &pt
   profile_details: Detalhes do perfil
   sign_up_with_google: Inscrever-se com Google
   sign_up_with_microsoft: Inscrever-se com Microsoft
+  redirecting_to_provider: Redirecionando para %{provider}...
   by_creating_an_account_you_agree_to_our_html: 'Ao criar uma conta, você concorda com nossa <a target="_blank" href="https://www.docuseal.com/privacy">Política de Privacidade</a> e <a target="_blank" href="https://www.docuseal.com/terms">Termos de Serviço</a>.'
   enter_email_to_continue: Insira o e-mail para continuar
   account: Conta
@@ -5051,6 +5068,9 @@ pt: &pt
   there_are_no_signatures: Não há assinaturas
   signed_with_trusted_certificate: Assinado com certificado confiável
   signed_with_external_certificate: Assinado com certificado externo
+  signature_valid: Assinatura válida
+  signature_verification_failed: Falha na verificação da assinatura
+  contains_unsigned_changes_after_the_last_signature: Contém alterações não assinadas após a última assinatura
   setup_2fa_to_continue: Configure 2FA para continuar.
   create_a_new_account: Criar uma nova conta.
   you_are_already_signed_in: Você já está conectado.
@@ -5803,6 +5823,7 @@ de: &de
   profile_details: Profildetails
   sign_up_with_google: Mit Google registrieren
   sign_up_with_microsoft: Mit Microsoft registrieren
+  redirecting_to_provider: Weiterleitung zu %{provider}...
   by_creating_an_account_you_agree_to_our_html: 'Durch die Erstellung eines Kontos stimmen Sie unseren <a target="_blank" href="https://www.docuseal.com/privacy">Datenschutzrichtlinien</a> und <a target="_blank" href="https://www.docuseal.com/terms">Nutzungsbedingungen</a> zu.'
   enter_email_to_continue: E-Mail eingeben, um fortzufahren
   account: Konto
@@ -6171,6 +6192,9 @@ de: &de
   there_are_no_signatures: Es gibt keine Unterschriften
   signed_with_trusted_certificate: Signiert mit vertrauenswürdigem Zertifikat
   signed_with_external_certificate: Signiert mit externem Zertifikat
+  signature_valid: Signatur gültig
+  signature_verification_failed: Signaturprüfung fehlgeschlagen
+  contains_unsigned_changes_after_the_last_signature: Enthält nicht signierte Änderungen nach der letzten Signatur
   setup_2fa_to_continue: Richten Sie 2FA ein, um fortzufahren.
   create_a_new_account: Neues Konto erstellen.
   you_are_already_signed_in: Sie sind bereits angemeldet.
@@ -6790,6 +6814,7 @@ pl:
   profile_details: Szczegóły profilu
   sign_up_with_google: Zarejestruj się przez Google
   sign_up_with_microsoft: Zarejestruj się przez Microsoft
+  redirecting_to_provider: Przekierowywanie do %{provider}...
   by_creating_an_account_you_agree_to_our_html: 'Tworząc konto, akceptujesz naszą <a target="_blank" href="https://www.docuseal.com/privacy">Politykę Prywatności</a> i <a target="_blank" href="https://www.docuseal.com/terms">Regulamin</a>.'
   enter_email_to_continue: Wprowadź e-mail, aby kontynuować
   the_code_has_been_sent_to_your_email: Kod został wysłany na Twój e-mail.
@@ -6929,6 +6954,7 @@ uk:
   profile_details: Дані профілю
   sign_up_with_google: Зареєструватися через Google
   sign_up_with_microsoft: Зареєструватися через Microsoft
+  redirecting_to_provider: Перенаправлення до %{provider}...
   by_creating_an_account_you_agree_to_our_html: 'Створюючи акаунт, ви погоджуєтесь з нашою <a target="_blank" href="https://www.docuseal.com/privacy">Політикою конфіденційності</a> і <a target="_blank" href="https://www.docuseal.com/terms">Умовами надання послуг</a>.'
   enter_email_to_continue: Введіть електронну пошту, щоб продовжити
   the_code_has_been_sent_to_your_email: Код було надіслано на вашу електронну пошту.
@@ -7068,6 +7094,7 @@ cs:
   profile_details: Detaily profilu
   sign_up_with_google: Zaregistrovat se pomocí Googlu
   sign_up_with_microsoft: Zaregistrovat se pomocí Microsoftu
+  redirecting_to_provider: Přesměrování na %{provider}...
   by_creating_an_account_you_agree_to_our_html: 'Vytvořením účtu souhlasíte s našimi <a target="_blank" href="https://www.docuseal.com/privacy">Zásadami ochrany osobních údajů</a> a <a target="_blank" href="https://www.docuseal.com/terms">Podmínkami služby</a>.'
   enter_email_to_continue: Zadejte e-mail pro pokračování
   the_code_has_been_sent_to_your_email: Kód byl odeslán na váš e-mail.
@@ -7193,6 +7220,7 @@ he:
   profile_details: פרטי הפרופיל
   sign_up_with_google: הירשם עם גוגל
   sign_up_with_microsoft: הירשם עם מיקרוסופט
+  redirecting_to_provider: מפנה אל %{provider}...
   by_creating_an_account_you_agree_to_our_html: 'על ידי יצירת חשבון, אתה מסכים ל<a target="_blank" href="https://www.docuseal.com/privacy">מדיניות הפרטיות</a> ול<a target="_blank" href="https://www.docuseal.com/terms">תנאי השירות</a> שלנו.'
   enter_email_to_continue: הכנס דוא"ל כדי להמשיך
   the_code_has_been_sent_to_your_email: הקוד נשלח לדוא"ל שלך.
@@ -7439,6 +7467,7 @@ nl: &nl
   profile_details: Profielgegevens
   sign_up_with_google: Registreren met Google
   sign_up_with_microsoft: Registreren met Microsoft
+  redirecting_to_provider: Doorverwijzen naar %{provider}...
   by_creating_an_account_you_agree_to_our_html: Door een account aan te maken gaat u akkoord met ons <a target="_blank" href="https://www.docuseal.com/privacy">Privacybeleid</a> en onze <a target="_blank" href="https://www.docuseal.com/terms">Servicevoorwaarden</a>.
   enter_email_to_continue: Voer e-mailadres in om door te gaan
   account: Account
@@ -7807,6 +7836,9 @@ nl: &nl
   there_are_no_signatures: Er zijn geen handtekeningen
   signed_with_trusted_certificate: Ondertekend met vertrouwd certificaat
   signed_with_external_certificate: Ondertekend met extern certificaat
+  signature_valid: Handtekening geldig
+  signature_verification_failed: Verificatie van handtekening mislukt
+  contains_unsigned_changes_after_the_last_signature: Bevat niet-ondertekende wijzigingen na de laatste handtekening
   setup_2fa_to_continue: Stel 2FA in om door te gaan.
   create_a_new_account: Maak een nieuw account aan.
   you_are_already_signed_in: U bent al aangemeld.
@@ -8409,6 +8441,7 @@ ar:
   profile_details: تفاصيل الملف الشخصي
   sign_up_with_google: الاشتراك باستخدام جوجل
   sign_up_with_microsoft: الاشتراك باستخدام مايكروسوفت
+  redirecting_to_provider: جارٍ إعادة التوجيه إلى %{provider}...
   by_creating_an_account_you_agree_to_our_html: 'من خلال إنشاء حساب، فإنك توافق على <a target="_blank" href="https://www.docuseal.com/privacy">سياسة الخصوصية</a> و<a target="_blank" href="https://www.docuseal.com/terms">شروط الخدمة</a> الخاصة بنا.'
   enter_email_to_continue: أدخل البريد الإلكتروني للمتابعة
   the_code_has_been_sent_to_your_email: تم إرسال الرمز إلى بريدك الإلكتروني.
@@ -8520,6 +8553,7 @@ ko:
   profile_details: 프로필 세부 정보
   sign_up_with_google: Google로 가입
   sign_up_with_microsoft: Microsoft로 가입
+  redirecting_to_provider: "%{provider}(으)로 이동 중..."
   by_creating_an_account_you_agree_to_our_html: '계정을 생성함으로써, <a target="_blank" href="https://www.docuseal.com/privacy">개인정보 처리방침</a> 및 <a target="_blank" href="https://www.docuseal.com/terms">서비스 약관</a>에 동의하게 됩니다.'
   enter_email_to_continue: 계속하려면 이메일을 입력하세요
   the_code_has_been_sent_to_your_email: 코드가 이메일로 전송되었습니다.
@@ -8631,6 +8665,7 @@ ja:
   profile_details: プロフィールの詳細
   sign_up_with_google: Googleで登録
   sign_up_with_microsoft: Microsoftで登録
+  redirecting_to_provider: "%{provider} にリダイレクトしています..."
   by_creating_an_account_you_agree_to_our_html: '<a target="_blank" href="https://www.docuseal.com/privacy">プライバシーポリシー</a>および<a target="_blank" href="https://www.docuseal.com/terms">利用規約</a>に同意の上、アカウントを作成します。'
   enter_email_to_continue: 続行するにはメールを入力してください
   the_code_has_been_sent_to_your_email: コードがあなたのメールに送信されました
