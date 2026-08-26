@@ -992,6 +992,13 @@ en: &en
   open_file_from: 'Open file from'
   cancel: Cancel
   open: Open
+  signature_request_email_sent_to_recipients_with_a_link_to_review_and_sign: Signature request email sent to recipients with a link to review and sign.
+  view_only_email_sent_to_recipients_that_need_to_only_review_the_documents: View only email sent to recipients that need to only review the documents.
+  reminds_recipients_who_havent_completed_their_part_yet_to_sign_following_the_reminders_schedule: Reminds recipients who haven't completed their part yet to sign, following the reminders schedule.
+  signature_request_sms_sent_to_recipients_with_a_link_to_review_and_sign: Signature request SMS sent to recipients with a link to review and sign.
+  phone_2fa_verification_text_message: Phone 2FA verification text message.
+  notification_email_sent_to_the_sender_user_and_bcc_addresses_once_the_submission_is_completed_by_all_parties: Notification email sent to the sender user and BCC addresses once the submission is completed by all parties.
+  completed_documents_copy_email_sent_to_recipients_upon_completion_containing_their_documents: Completed documents copy email sent to recipients upon completion containing their documents.
   devise:
     confirmations:
       confirmed: Your email address has been successfully confirmed.
@@ -1007,6 +1014,7 @@ en: &en
     invite: Invite
     link: Link
     mcp: MCP
+    self: Sign Yourself
   submission_event_names:
     send_email_to_html: '<b>Email sent</b> to %{submitter_name}'
     bounce_email_html: '<b>Email bounced</b> %{submitter_name}'
@@ -1470,6 +1478,13 @@ es: &es
   completed_form_message: Mensaje de formulario completado
   completed_form_redirect_button: Botón de redirección de formulario completado
   documents_copy_email: Correo de copia de documentos
+  signature_request_email_sent_to_recipients_with_a_link_to_review_and_sign: Correo de solicitud de firma enviado a los destinatarios con un enlace para revisar y firmar.
+  view_only_email_sent_to_recipients_that_need_to_only_review_the_documents: Correo de solo lectura enviado a los destinatarios que solo necesitan revisar los documentos.
+  reminds_recipients_who_havent_completed_their_part_yet_to_sign_following_the_reminders_schedule: Recuerda firmar a los destinatarios que aún no han completado su parte, según la programación de recordatorios.
+  signature_request_sms_sent_to_recipients_with_a_link_to_review_and_sign: SMS de solicitud de firma enviado a los destinatarios con un enlace para revisar y firmar.
+  phone_2fa_verification_text_message: Mensaje de texto de verificación 2FA por teléfono.
+  notification_email_sent_to_the_sender_user_and_bcc_addresses_once_the_submission_is_completed_by_all_parties: Correo de notificación enviado al usuario remitente y a las direcciones BCC una vez que todas las partes han completado el envío.
+  completed_documents_copy_email_sent_to_recipients_upon_completion_containing_their_documents: Correo con la copia de los documentos completados enviado a los destinatarios al finalizar, con sus documentos.
   form_custom_css: CSS personalizado del formulario
   subject: Asunto
   body: Cuerpo
@@ -2118,6 +2133,7 @@ es: &es
     invite: Invitación
     link: Enlace
     mcp: MCP
+    self: Firma tú mismo
   submission_event_names:
     send_email_to_html: '<b>Correo electrónico enviado</b> a %{submitter_name}'
     bounce_email_html: '<b>Correo electrónico rebotado</b> %{submitter_name}'
@@ -2595,6 +2611,13 @@ it: &it
   completed_form_message: Messaggio di completamento del modulo
   completed_form_redirect_button: Pulsante di reindirizzamento dopo il completamento del modulo
   documents_copy_email: Email con copia dei documenti
+  signature_request_email_sent_to_recipients_with_a_link_to_review_and_sign: Email di richiesta di firma inviata ai destinatari con un link per revisionare e firmare.
+  view_only_email_sent_to_recipients_that_need_to_only_review_the_documents: Email di sola lettura inviata ai destinatari che devono solo revisionare i documenti.
+  reminds_recipients_who_havent_completed_their_part_yet_to_sign_following_the_reminders_schedule: Ricorda di firmare ai destinatari che non hanno ancora completato la loro parte, in base alla pianificazione dei promemoria.
+  signature_request_sms_sent_to_recipients_with_a_link_to_review_and_sign: SMS di richiesta di firma inviato ai destinatari con un link per revisionare e firmare.
+  phone_2fa_verification_text_message: Messaggio di testo per la verifica 2FA tramite telefono.
+  notification_email_sent_to_the_sender_user_and_bcc_addresses_once_the_submission_is_completed_by_all_parties: Email di notifica inviata all'utente mittente e agli indirizzi BCC una volta che l'invio è stato completato da tutte le parti.
+  completed_documents_copy_email_sent_to_recipients_upon_completion_containing_their_documents: Email con la copia dei documenti completati inviata ai destinatari al completamento, con i loro documenti.
   form_custom_css: CSS personalizzato del modulo
   subject: Oggetto
   body: Corpo
@@ -3243,6 +3266,7 @@ it: &it
     invite: Invito
     link: Link
     mcp: MCP
+    self: Firma te stesso
   submission_event_names:
     send_email_to_html: '<b>Email inviata</b> a %{submitter_name}'
     bounce_email_html: '<b>Email respinta</b> %{submitter_name}'
@@ -3706,6 +3730,13 @@ fr: &fr
   completed_form_message: Message de formulaire complété
   completed_form_redirect_button: Bouton de redirection après finalisation
   documents_copy_email: E‑mail avec copie des documents
+  signature_request_email_sent_to_recipients_with_a_link_to_review_and_sign: E-mail de demande de signature envoyé aux destinataires avec un lien pour consulter et signer.
+  view_only_email_sent_to_recipients_that_need_to_only_review_the_documents: E-mail en lecture seule envoyé aux destinataires qui doivent uniquement consulter les documents.
+  reminds_recipients_who_havent_completed_their_part_yet_to_sign_following_the_reminders_schedule: Rappelle de signer aux destinataires qui n'ont pas encore terminé leur partie, selon la planification des rappels.
+  signature_request_sms_sent_to_recipients_with_a_link_to_review_and_sign: SMS de demande de signature envoyé aux destinataires avec un lien pour consulter et signer.
+  phone_2fa_verification_text_message: Message texte de vérification 2FA par téléphone.
+  notification_email_sent_to_the_sender_user_and_bcc_addresses_once_the_submission_is_completed_by_all_parties: E-mail de notification envoyé à l'utilisateur expéditeur et aux adresses Cci une fois la soumission complétée par toutes les parties.
+  completed_documents_copy_email_sent_to_recipients_upon_completion_containing_their_documents: E-mail avec la copie des documents finalisés, envoyé aux destinataires à la finalisation, contenant leurs documents.
   form_custom_css: CSS personnalisé du formulaire
   subject: Objet
   body: Corps
@@ -4351,6 +4382,7 @@ fr: &fr
     invite: Invitation
     link: Lien
     mcp: MCP
+    self: Signer vous-même
   submission_event_names:
     send_email_to_html: "<b>E‑mail envoyé</b> à %{submitter_name}"
     bounce_email_html: "<b>E‑mail rejeté</b> %{submitter_name}"
@@ -4827,6 +4859,13 @@ pt: &pt
   completed_form_message: Mensagem de formulário concluído
   completed_form_redirect_button: Botão de redirecionamento do formulário concluído
   documents_copy_email: E-mail com cópia dos documentos
+  signature_request_email_sent_to_recipients_with_a_link_to_review_and_sign: E-mail de solicitação de assinatura enviado aos destinatários com um link para revisar e assinar.
+  view_only_email_sent_to_recipients_that_need_to_only_review_the_documents: E-mail somente de leitura enviado aos destinatários que precisam apenas revisar os documentos.
+  reminds_recipients_who_havent_completed_their_part_yet_to_sign_following_the_reminders_schedule: Lembra os destinatários que ainda não concluíram a sua parte de assinar, de acordo com o agendamento de lembretes.
+  signature_request_sms_sent_to_recipients_with_a_link_to_review_and_sign: SMS de solicitação de assinatura enviado aos destinatários com um link para revisar e assinar.
+  phone_2fa_verification_text_message: Mensagem de texto de verificação 2FA por telefone.
+  notification_email_sent_to_the_sender_user_and_bcc_addresses_once_the_submission_is_completed_by_all_parties: E-mail de notificação enviado ao usuário remetente e aos endereços BCC assim que a submissão for concluída por todas as partes.
+  completed_documents_copy_email_sent_to_recipients_upon_completion_containing_their_documents: E-mail com a cópia dos documentos concluídos enviado aos destinatários na conclusão, com os seus documentos.
   form_custom_css: CSS personalizado do formulário
   subject: Assunto
   body: Corpo
@@ -5475,6 +5514,7 @@ pt: &pt
     invite: Convite
     link: Link
     mcp: MCP
+    self: Assine você mesmo
   submission_event_names:
     send_email_to_html: '<b>Email enviado</b> para %{submitter_name}'
     bounce_email_html: '<b>Email não entregue</b> %{submitter_name}'
@@ -5951,6 +5991,13 @@ de: &de
   completed_form_message: Nachricht zum abgeschlossenen Formular
   completed_form_redirect_button: Weiterleitungsschaltfläche nach Formularabschluss
   documents_copy_email: E-Mail mit Dokumentenkopie
+  signature_request_email_sent_to_recipients_with_a_link_to_review_and_sign: E-Mail mit der Signaturanfrage, die mit einem Link zum Prüfen und Signieren an die Empfänger gesendet wird.
+  view_only_email_sent_to_recipients_that_need_to_only_review_the_documents: E-Mail nur zur Ansicht, die an Empfänger gesendet wird, die die Dokumente nur prüfen müssen.
+  reminds_recipients_who_havent_completed_their_part_yet_to_sign_following_the_reminders_schedule: Erinnert Empfänger, die ihren Teil noch nicht abgeschlossen haben, an das Signieren, gemäß dem Erinnerungszeitplan.
+  signature_request_sms_sent_to_recipients_with_a_link_to_review_and_sign: SMS mit der Signaturanfrage, die mit einem Link zum Prüfen und Signieren an die Empfänger gesendet wird.
+  phone_2fa_verification_text_message: Textnachricht zur 2FA-Verifizierung per Telefon.
+  notification_email_sent_to_the_sender_user_and_bcc_addresses_once_the_submission_is_completed_by_all_parties: Benachrichtigungs-E-Mail, die an den absendenden Benutzer und die BCC-Adressen gesendet wird, sobald die Einreichung von allen Parteien abgeschlossen wurde.
+  completed_documents_copy_email_sent_to_recipients_upon_completion_containing_their_documents: E-Mail mit der Kopie der abgeschlossenen Dokumente, die nach Abschluss an die Empfänger gesendet wird.
   form_custom_css: Benutzerdefiniertes CSS für Formular
   subject: Betreff
   body: Inhalt
@@ -6599,6 +6646,7 @@ de: &de
     invite: Einladung
     link: Link
     mcp: MCP
+    self: Selbst unterschreiben
   submission_event_names:
     send_email_to_html: '<b>E-Mail gesendet</b> an %{submitter_name}'
     bounce_email_html: '<b>E-Mail unzustellbar</b> %{submitter_name}'
@@ -7595,6 +7643,13 @@ nl: &nl
   completed_form_message: Bericht voltooid formulier
   completed_form_redirect_button: Knop voor doorverwijzing na voltooid formulier
   documents_copy_email: E-mail met kopie van documenten
+  signature_request_email_sent_to_recipients_with_a_link_to_review_and_sign: E-mail met het handtekeningverzoek die naar de ontvangers wordt verzonden met een link om te bekijken en te ondertekenen.
+  view_only_email_sent_to_recipients_that_need_to_only_review_the_documents: E-mail met alleen weergave die wordt verzonden naar ontvangers die de documenten alleen hoeven te bekijken.
+  reminds_recipients_who_havent_completed_their_part_yet_to_sign_following_the_reminders_schedule: Herinnert ontvangers die hun deel nog niet hebben voltooid eraan te ondertekenen, volgens het herinneringsschema.
+  signature_request_sms_sent_to_recipients_with_a_link_to_review_and_sign: Sms met het handtekeningverzoek die naar de ontvangers wordt verzonden met een link om te bekijken en te ondertekenen.
+  phone_2fa_verification_text_message: Sms-bericht voor 2FA-verificatie via telefoon.
+  notification_email_sent_to_the_sender_user_and_bcc_addresses_once_the_submission_is_completed_by_all_parties: Meldingse-mail die naar de verzendende gebruiker en de BCC-adressen wordt gestuurd zodra de indiening door alle partijen is voltooid.
+  completed_documents_copy_email_sent_to_recipients_upon_completion_containing_their_documents: E-mail met een kopie van de voltooide documenten die na voltooiing naar de ontvangers wordt verzonden.
   form_custom_css: Aangepaste CSS voor formulier
   subject: Onderwerp
   body: Inhoud
@@ -8239,6 +8294,7 @@ nl: &nl
     invite: Uitnodiging
     link: Link
     mcp: MCP
+    self: Zelf ondertekenen
   submission_event_names:
     send_email_to_html: "<b>E-mail verzonden</b> naar %{submitter_name}"
     bounce_email_html: "<b>E-mail geretourneerd</b> %{submitter_name}"
