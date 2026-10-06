@@ -624,6 +624,7 @@ en: &en
   form_has_been_declined: Form has been declined.
   form_is_view_only: Form is view only.
   file_is_missing: File is missing
+  file_is_not_an_image: File is not an image
   folder_name_has_been_updated: Folder name has been updated.
   unable_to_rename_folder: Unable to rename folder.
   template_has_been_removed: Template has been removed.
@@ -683,7 +684,7 @@ en: &en
   thirty_days: 30 days
   free: Free
   unlimited_documents_storage: Unlimited documents storage
-  users_management: Users management
+  user_management: User management
   ten_field_types: 10 field types
   multiple_signers: Multiple signers
   automatic_esignature: Automatic eSignature
@@ -1781,6 +1782,7 @@ es: &es
   form_has_been_declined: El formulario ha sido rechazado.
   form_is_view_only: El formulario es de solo lectura.
   file_is_missing: Falta el archivo
+  file_is_not_an_image: El archivo no es una imagen
   folder_name_has_been_updated: El nombre de la carpeta ha sido actualizado.
   unable_to_rename_folder: No se pudo renombrar la carpeta.
   template_has_been_removed: La plantilla ha sido eliminada.
@@ -1840,7 +1842,7 @@ es: &es
   thirty_days: 30 días
   free: Gratis
   unlimited_documents_storage: Almacenamiento ilimitado
-  users_management: Gestión de usuarios
+  user_management: Gestión de usuarios
   ten_field_types: 10 tipos de campos
   multiple_signers: Múltiples firmantes
   automatic_esignature: Firma electrónica automática
@@ -2941,6 +2943,7 @@ it: &it
   form_has_been_declined: Il modulo è stato rifiutato.
   form_is_view_only: Il modulo è di sola lettura.
   file_is_missing: File mancante
+  file_is_not_an_image: Il file non è un'immagine
   folder_name_has_been_updated: Il nome della cartella è stato aggiornato.
   unable_to_rename_folder: Impossibile rinominare la cartella.
   template_has_been_removed: Il modello è stato rimosso.
@@ -3000,7 +3003,7 @@ it: &it
   thirty_days: 30 giorni
   free: Gratuito
   unlimited_documents_storage: Archiviazione illimitata di documenti
-  users_management: Gestione utenti
+  user_management: Gestione utenti
   ten_field_types: 10 tipi di campi
   multiple_signers: Firmatari multipli
   automatic_esignature: Firma elettronica automatica
@@ -4087,6 +4090,7 @@ fr: &fr
   form_has_been_declined: Le formulaire a été refusé.
   form_is_view_only: Le formulaire est en lecture seule.
   file_is_missing: Fichier manquant
+  file_is_not_an_image: Le fichier n'est pas une image
   folder_name_has_been_updated: Le nom du dossier a été mis à jour.
   unable_to_rename_folder: Impossible de renommer le dossier.
   template_has_been_removed: Le modèle a été supprimé.
@@ -4146,7 +4150,7 @@ fr: &fr
   thirty_days: 30 jours
   free: Gratuit
   unlimited_documents_storage: Stockage de documents illimité
-  users_management: Gestion des utilisateurs
+  user_management: Gestion des utilisateurs
   ten_field_types: 10 types de champs
   multiple_signers: Plusieurs signataires
   automatic_esignature: Signature électronique automatique
@@ -5243,6 +5247,7 @@ pt: &pt
   form_has_been_declined: O formulário foi recusado.
   form_is_view_only: O formulário é somente leitura.
   file_is_missing: O arquivo está ausente
+  file_is_not_an_image: O arquivo não é uma imagem
   folder_name_has_been_updated: O nome da pasta foi atualizado.
   unable_to_rename_folder: Não foi possível renomear a pasta.
   template_has_been_removed: O modelo foi removido.
@@ -5302,7 +5307,7 @@ pt: &pt
   thirty_days: 30 dias
   free: Gratuito
   unlimited_documents_storage: Armazenamento ilimitado
-  users_management: Gerenciamento de usuários
+  user_management: Gerenciamento de usuários
   ten_field_types: 10 tipos de campo
   multiple_signers: Múltiplos signatários
   automatic_esignature: Assinatura eletrônica automática
@@ -6402,6 +6407,7 @@ de: &de
   form_has_been_declined: Das Formular wurde abgelehnt.
   form_is_view_only: Das Formular ist schreibgeschützt.
   file_is_missing: Datei fehlt
+  file_is_not_an_image: Datei ist kein Bild
   folder_name_has_been_updated: Der Ordnername wurde aktualisiert.
   unable_to_rename_folder: Der Ordner konnte nicht umbenannt werden.
   template_has_been_removed: Die Vorlage wurde entfernt.
@@ -6461,7 +6467,7 @@ de: &de
   thirty_days: 30 Tage
   free: Kostenlos
   unlimited_documents_storage: Unbegrenzter Dokumentenspeicher
-  users_management: Benutzerverwaltung
+  user_management: Benutzerverwaltung
   ten_field_types: 10 Feldtypen
   multiple_signers: Mehrere Unterzeichner
   automatic_esignature: Automatische E‑Signatur
@@ -8089,6 +8095,7 @@ nl: &nl
   form_has_been_declined: Formulier is geweigerd.
   form_is_view_only: Formulier is alleen-lezen.
   file_is_missing: Bestand ontbreekt
+  file_is_not_an_image: Bestand is geen afbeelding
   folder_name_has_been_updated: Mapnaam is bijgewerkt.
   unable_to_rename_folder: Kan map niet hernoemen.
   template_has_been_removed: Sjabloon is verwijderd.
@@ -8148,7 +8155,7 @@ nl: &nl
   thirty_days: 30 dagen
   free: Gratis
   unlimited_documents_storage: Onbeperkte documentopslag
-  users_management: Gebruikersbeheer
+  user_management: Gebruikersbeheer
   ten_field_types: 10 veldtypen
   multiple_signers: Meerdere ondertekenaars
   automatic_esignature: Automatische e-handtekening
