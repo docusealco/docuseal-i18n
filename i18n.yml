@@ -1,3 +1,4 @@
+# zh-CN (Simplified Chinese) translation added by 深圳赏拾科技有限公司（Shenzhen Shangshi Technology Co., Ltd.）.
 en: &en
   language_en: English
   language_en-US: English (US)
@@ -9035,6 +9036,121 @@ ja:
   please_contact_the_requester_to_specify_your_email_for_two_factor_authentication: 2段階認証用にメールアドレスを指定するために、送信者にお問い合わせください。
   rate_limit_exceeded: レート制限を超えました
   too_many_requests_try_again_later: リクエストが多すぎます。後でもう一度お試しください。
+
+# Simplified Chinese (zh-CN) translation contributed by 深圳赏拾科技有限公司（Shenzhen Shangshi Technology Co., Ltd.）
+zh-CN:
+  date:
+    formats:
+      default: '%Y/%m/%d'
+      short: '%-m月%-d日'
+      long: '%Y年%-m月%-d日'
+  time:
+    formats:
+      short: '%-m月%-d日 %-H:%M'
+      long: '%Y年%-m月%-d日 %-H:%M'
+      detailed: '%Y年%-m月%-d日 %-H:%M:%S'
+  require_phone_2fa_to_open: 需要手机短信二次验证才能打开
+  the_sender_has_requested_a_two_factor_authentication_via_one_time_password_sent_to_your_html: '发送方已要求通过发送至 <b>%{phone}</b> 手机号的一次性验证码进行二次验证'
+  send_verification_code: 发送验证码
+  code_has_been_resent: 验证码已重新发送
+  invalid_code: 验证码无效
+  awaiting_completion_by_the_other_party: 等待另一方完成
+  view: 查看
+  hi_there: 您好
+  download: 下载
+  page: 页
+  decline: 拒签
+  delegate: 转签
+  enter_the_email_address_of_the_person_you_want_to_delegate_to: 请输入要转签对象的邮箱地址
+  declined: 已拒签
+  decline_reason: 拒签原因
+  provide_a_reason: 请填写原因
+  notify_the_sender_with_the_reason_you_declined: 将您的拒签原因通知发送方
+  form_has_been_declined_on_html: '表单已于 <span class="font-semibold">%{time}</span> 被拒签'
+  document_has_been_delegated_on_html: '文档已于 <span class="font-semibold">%{time}</span> 被转签'
+  name_declined_by_submitter: '"%{name}" 已被 %{submitter} 拒签'
+  name_declined_by_submitter_with_the_following_reason: '"%{name}" 已被 %{submitter} 拒签，原因如下：'
+  email: 邮箱
+  digitally_signed_by: 电子签署人：
+  role: 角色
+  provide_your_email_to_start: 请输入邮箱地址以开始
+  provide_your_email: 请输入邮箱地址
+  provide_your_name_to_start: 请输入姓名以开始
+  provide_your_name: 请输入姓名
+  provide_your_phone_in_international_format_to_start: 请输入国际格式手机号以开始
+  provide_your_phone_in_international_format: 请输入国际格式手机号
+  use_international_format_1xxx_: 请使用国际格式：+1xxx……
+  start: 开始
+  reason: 原因
+  starting: 正在开始
+  form_expired_at_html: '表单已于 <span class="font-semibold">%{time}</span> 过期'
+  invited_by_html: '由 <span class="font-semibold">%{name}</span> 邀请'
+  you_have_been_invited_to_submit_a_form: 邀请您提交表单
+  verification_code_code: '验证码：%{code}'
+  signed_on_time: '已于 %{time} 签署'
+  completed_on_time: '已于 %{time} 完成'
+  document_has_been_signed_already: 文档已完成签署
+  form_has_been_submitted_already: 表单已提交
+  re_send_email: 重新发送邮件
+  send_copy_to_email: 通过邮件发送副本
+  sending: 发送中
+  resubmit: 重新提交
+  form_has_been_deleted_by_html: '表单已被 <span class="font-semibold">%{name}</span> 删除。'
+  or: 或
+  download_documents: 下载文档
+  downloading: 下载中
+  completed_successfully: 已完成
+  password: 密码
+  sign_in: 登录
+  signing_in: 登录中
+  sign_in_with_microsoft: 使用 Microsoft 登录
+  sign_in_with_google: 使用 Google 登录
+  forgot_your_password_: 忘记密码？
+  create_free_account: 创建免费账号
+  already_have_an_account: 已有账号？
+  first_name: 名
+  last_name: 姓
+  sign_up: 注册
+  signing_up: 注册中
+  profile_details: 个人资料
+  sign_up_with_google: 使用 Google 注册
+  sign_up_with_microsoft: 使用 Microsoft 注册
+  redirecting_to_provider: '正在跳转到 %{provider}……'
+  by_creating_an_account_you_agree_to_our_html: '创建账号即表示您同意我们的<a target="_blank" href="https://www.docuseal.com/privacy">隐私政策</a>和<a target="_blank" href="https://www.docuseal.com/terms">服务条款</a>。'
+  enter_email_to_continue: 请输入邮箱地址以继续
+  the_code_has_been_sent_to_your_email: 验证码已发送至您的邮箱
+  enter_the_verification_code_from_your_email: 请输入邮件中的验证码
+  too_many_attempts: 尝试次数过多
+  verification_email_bounced: 无法发送验证码：该邮箱地址邮件送达失败。
+  back: 返回
+  verification_code: 验证码
+  resend_code: 重新发送验证码
+  powered_by: 技术支持：
+  count_documents_signed_with_html: '已通过 <b>%{count}</b> 签署文档'
+  open_source_documents_software: 开源文档软件
+  eu_data_residency: 欧盟数据存储地
+  please_enter_your_email_address_associated_with_the_completed_submission: 请输入与已完成签署关联的邮箱地址。
+  privacy_policy: 隐私政策
+  esignature_disclosure: 电子签名告知书
+  select_data_residency: 选择数据存储地
+  company_name: 公司名称
+  optional: 选填
+  submit: 提交
+  sms_rate_limit_exceeded: 短信发送频率超出限制
+  invalid_phone_number: 手机号无效
+  please_contact_the_requester_to_specify_your_phone_number_for_two_factor_authentication: 请联系发起方填写用于二次验证的手机号。
+  we_sent_a_one_time_verification_code_to_your_email_address_please_enter_the_code_below_to_continue: 我们已向您的邮箱发送一次性验证码，请在下方输入以继续。
+  re_send_code: 重新发送验证码
+  email_verification: 邮箱验证
+  your_verification_code_to_access_the_name: '访问 "%{name}" 的验证码：'
+  please_reply_to_this_email_if_you_didnt_request_this: 如果这不是您发起的请求，请回复此邮件。
+  your_user_account_has_been_archived_contact_your_administrator_to_restore_access_to_your_account: 您的用户账号已归档，请联系管理员恢复访问权限。
+  your_email_could_not_be_reached_this_may_happen_if_there_was_a_typo_in_your_address_or_if_your_mailbox_is_not_available_please_contact_support_email_to_log_in: '无法送达您的邮箱。这可能是地址填写有误或邮箱不可用所致。请发送邮件至 support@docuseal.com 联系支持人员登录。'
+  verification_required_refresh_the_page_and_pass_2fa: 需要验证。请刷新页面并完成二次验证。
+  the_sender_has_requested_a_two_factor_authentication_via_one_time_password_sent_to_your_email_html: '发送方已要求通过发送至 <b>%{email}</b> 邮箱的一次性验证码进行二次验证'
+  please_contact_the_requester_to_specify_your_email_for_two_factor_authentication: 请联系发起方填写用于二次验证的邮箱地址。
+  rate_limit_exceeded: 操作频率超出限制
+  too_many_requests_try_again_later: 请求过于频繁，请稍后再试
 
 en-US:
   <<: *en
